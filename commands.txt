@@ -1,0 +1,7 @@
+to check which branches do we have=> git checkout -a
+to switch between branches=> checkout <branch name>
+how to set a remote repository:
+go to github and copy the directory of your repo=> adjust the link by adding the user name: token@github.com.....rest of the link
+go back to the terminal/opened in the folder you want to copy the remote repo=> and use the following command=>
+git remote add origin<here add the adjusted link>
+check if everything is correct by using the following command=> git remote -v
